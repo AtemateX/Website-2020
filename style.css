@@ -1,0 +1,117 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+	background-color: #23415C;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+.navbar-brand{
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+.navbar-default .navbar-nav li a {
+	color: #D5D5D5;
+}
+.navbar-default .navbar-nav li a.hover, .navbar-default .navbar-nav li a.active {
+	color: #FFF;
+}
+#home {
+	background: url(img/GOCHIH.jpg) no-repeat center center;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+@media(max-width: 767px){
+	#home{
+		background-attachment: initial;
+	}
+}
+.landing-text {
+    display: normal;
+    text-align: Center;
+    vertical-align: top;
+    padding: 300px 0px;
+    color: #FFF;
+    opacity: 0.7;
+}
+.landing-text h1{
+	font-size: 500%;
+	font-weight: 700;
+}
+
+.img-rounded {
+    height: auto;
+    max-width: 25%;
+    margin:0px auto;
+}
+        .Image {
+    padding: 40px;
+
+}
+
+    .padding {
+        padding: 80px 0;
+    }
+
+        .padding img {
+            width: 100%;
+        }
+
+    #fixed {
+        background: url(img/GOCHI.jpg) no-repeat center center;
+        display: table;
+        height: 60%;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    @media(max-width: 767px) {
+        #fixed {
+            background-attachment: initial;
+        }
+    }
+
+    footer {
+        width: 100%;
+        background-color: #23415C;
+        padding: 5% 5% 5% 5%;
+        color: #FFF
+    }
+
+    .fa {
+        padding: 15px;
+        font-size: 25px;
+        color: #FFF;
+    }
+
+        .fa:hover {
+            color: #D5D5D5;
+            text-decoration: none;
+        }
+
+    .icon {
+        max-width: 200px;
+    }
+
+    @media (max-width: 768px) {
+        .landing-text h1 {
+            font-size: 300%;
+        }
+
+        .fa {
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        .icon {
+            padding-top: 5%;
+            max-width: 100px;
+        }
+    }
