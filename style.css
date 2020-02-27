@@ -2,10 +2,10 @@ html, body {
     height: 100%;
     width: 100%;
 }
-.navbar{
-	background-color: #23415C;
-	padding: 1% 0;
-	font-size: 1.2em;
+.navbar {
+    background-color: #5D9F71;
+    padding: 1% 0;
+    font-size: 1.2em;
 }
 .navbar-brand{
 	min-height: 55px;
@@ -78,12 +78,12 @@ html, body {
         }
     }
 
-    footer {
-        width: 100%;
-        background-color: #23415C;
-        padding: 5% 5% 5% 5%;
-        color: #FFF
-    }
+footer {
+    width: 100%;
+    background-color: #5D9F71;
+    padding: 5% 5% 5% 5%;
+    color: #FFF
+}
 
     .fa {
         padding: 15px;
